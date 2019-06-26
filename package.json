@@ -1,6 +1,6 @@
 {
   "name": "label-edit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Click to show input text box Vue Component ... inspired by Trello",
   "main": "dist/vue-label-edit.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myokyawhtun/label-edit.git"
+    "url": "git+https://github.com/mhucik/label-edit.git"
   },
   "keywords": [
     "vue",
@@ -20,9 +20,9 @@
   "author": "Myo Kyaw Htun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/myokyawhtun/label-edit/issues"
+    "url": "https://github.com/mhucik/label-edit/issues"
   },
-  "homepage": "https://github.com/myokyawhtun/label-edit#readme",
+  "homepage": "https://github.com/mhucik/label-edit#readme",
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
@@ -42,6 +42,6 @@
   },
   "devDependencies": {
     "serviceworker-webpack-plugin": "^1.0.0-alpha02",
-    "webpack-cli": "^2.0.15"
+    "webpack-cli": "^3.3.5"
   }
 }

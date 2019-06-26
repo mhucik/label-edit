@@ -14,7 +14,7 @@ export default{
 			empty: 'Enter some text value', // empty place holder .. replace with your own localization for default
 		}
 	},
-	props: ['text','placeholder'], // parent should provide :text or :placeholder
+	props: ['text','placeholder','objectId'], // parent should provide :text or :placeholder
 	methods: {
 		initText: function(){
 			if(this.text==''||this.text==undefined){
@@ -33,11 +33,11 @@ export default{
 			// update the edit mode to false .. display div label text
 			this.edit = false;
 			// emit text updated callback
-			this.$emit('text-updated-blur',this.label)
+			this.$emit('text-updated-blur',this.label, this.objectId)
 		},
 		updateTextEnter: function(){
 			this.edit = false;
-			this.$emit('text-updated-enter',this.label)
+			this.$emit('text-updated-enter',this.label, this.objectId)
 		}
 	},
 	computed: {
