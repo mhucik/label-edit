@@ -5,11 +5,11 @@ Click to show input text box Vue Component ... inspired by Trello. This is my fi
 
 ## Installation
 ```
-npm install --save label-edit
+npm install --save mhucik-label-edit
 ```
 ### Module
 ```js
-import LabelEdit from 'label-edit'
+import LabelEdit from 'mhucik-label-edit'
 ```
 ## Usage
 ```html
